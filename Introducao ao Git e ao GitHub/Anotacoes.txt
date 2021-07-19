@@ -1,2 +1,8 @@
 Link para lista de metodos de Download do git no linux: https://git-scm.com/download/linux
 O Git bash é um terminal extendido para otimizar o uso do git, porem no linux o git é utilizado normalmente no próprio terminal do sistema.
+
+Sequencia até o push para o git:
+> git status (Utilizado para ver alterações nos arquivos)
+> git add . (Utilizado para adicionar todos os arquivos modificados para serem commitados)
+> git commit -m "" (Utilizado para realizar o comentario que deve conter informações do que foi alterado no projeto)
+> git push (Utilizado para mandar as alterações para o repositório no github. Normalmente deve ser indicado apos o push para qual branch as alterações irão, sendo a mais comum "origin main")
